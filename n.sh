@@ -1,6 +1,4 @@
-#bin/bash
-su - mastodon
- 
+#bin/bash 
  echo "install ruby"
  git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src
